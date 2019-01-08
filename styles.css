@@ -1,0 +1,33 @@
+body {
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 2em;
+    background-color: #062F4F;
+    border: 1px solid white;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 1.5em;
+    background-color: #813772;
+    border: 1px solid white;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 10px;
+}
+
+p {
+    font-size: 1em;
+    background-color:  #B82601;
+    border: 1px solid white;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+}

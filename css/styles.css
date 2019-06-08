@@ -1,0 +1,146 @@
+html {
+    height: 100%;
+    font-family: Arial;
+}
+
+body {
+    background: #000;
+    height: 100%;
+    margin: 0;
+}
+
+.background-image {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.3;
+    z-index: 1;
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+}
+
+.header {
+    width: 100%;
+    min-height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.header-content {
+    align-self: center;
+}
+
+.more {
+    align-self: flex-end;
+}
+
+.portrait-circle {
+    position: relative;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: -100px;
+    border-radius: 50% 50% 50% 50%;
+    border: 2px solid #333; 
+}
+
+.profile-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.header-text-container {
+    text-align: center;
+    font-size: 175%;
+}
+
+.header-text {
+    color: white;
+    font-weight: 200;
+}
+
+.links {
+    padding: 0px;
+}
+
+.links li {
+    font-size: 100%;
+    display: inline-block;
+    margin: 6px;
+}
+
+.links i {
+    color: white;
+    opacity: 0.75;
+}
+
+.links i:hover {
+    opacity: 1;
+}
+
+.down-arrow {
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    margin-left: -20px;
+    margin-top: -30px;
+    width: 40px;
+    height: 40px;
+    padding: 0px;
+    font-size: 40px;
+    color: white;
+    background: 0 0;
+}
+
+.projects {
+    width: 100%;
+    min-height: 100%;
+    background: #EEE;
+    margin-bottom: 0;
+}
+
+.projects-title {
+    color: #222;
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+}
+
+.row {
+    margin-bottom: 0;
+}
+
+.card .card-action a {
+    color: #0000CD;
+    font-size: 12pt;
+}
+
+.card .card-action a:hover {
+    color: #FFD700;
+}
+
+.background-gradient {
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4));
+    width: 100%;
+}
+
+.footer {
+    background: 0;
+    height: 40px;
+    width: 100%;
+    padding: 0px 20px;
+    color: white;
+    text-align: right;
+}

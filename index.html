@@ -1,34 +1,60 @@
-<!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="sidenav">
-        <a style="background-color: #555555" href="#home"><img src="home.png" alt="Home"><br>Home</a>
-        <a href="#projects"><img src="projects.png" alt="Projects"><br>Projects</a>
-    </div>
-    <div>
+    <head>
+        <title>Jason Keung</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="css/styles.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        <img src="image/background.jpg" class="background-image"/>
         <div class="content">
-            <div id="bar">
-                <img src="self.png" alt="Jason">
-                <h1>Jason Keung</h1>
-                <h2>Computer Science and Applied Math</h2>
-                <h2>UC Berkeley '22</h2>
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-heading">Contact and Links</div>
-                <div class="panel-content">
-                    jason.keungg@gmail.com<br>
-                    <a href="https://github.com/jasonkeung" target="_blank">Github</a> <br>
-                    <a href="
-                    https://www.linkedin.com/in/jasonkeungg" target="_blank">LinkedIn</a>
+            <div id="header" class="header" >
+                <div class="header-content">
+                    <div id="header-image">
+                            <img src="image/header-image.png" class="portrait-circle"/>
+                    </div>
+                    <div class="header-text-container">
+                        <h1 class="header-text">Jason Keung</h1>
+                        <!--<h5 class="header-text">where idealism meets pragmatism</h5>-->
+                        <h5 class="header-text">Developer &bull; Student &bull; Teacher</h5>
+                        <ul class="links">
+                            <li><a href="mailto:jason.keungg@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a></li>
+                            <li><a href="https://github.com/jasonkeung" target="_blank"><i class="fa fa-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/jasonkeungg" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+                            <li><a href="resume.pdf" target="_blank"><i class="fa fa-file"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="more down-arrow">
+                    <i class="fa fa-angle-down"></i>
                 </div>
             </div>
+
+            <div id="projects" class="projects">
+                <h1 class="projects-title">My Projects</h1>
+                <div class="row">
+
+                    <div class="col s12 m6 l4">
+                        <div class="card medium">
+                            <div class="card-image">
+                                <img src="image/project-working-on.jpg">
+                                <span class="card-title background-gradient">Working On: Function Grapher</span>
+                            </div>
+                            <div class="card-content">
+                                <p>Python desktop application to visually teach computer science fundamentals. Students will recreate this project to learn the screen coordinate system, StdDraw, and integer operations. Can be extended to illustrate concepts from algebra and calculus. </p>
+                            </div>
+                            <div class="card-action">
+                                <a>Coming Soon</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <!-- <p>&copy Jason Keung 2019</p> -->
+            </div>
         </div>
-    </div>
-</body>
+    </body>
 </html>

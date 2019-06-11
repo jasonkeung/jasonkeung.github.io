@@ -131,10 +131,6 @@ body {
     color: #64b5f6;
 }
 
-#projects .card .card-reveal {
-    overflow: hidden;
-}
-
 .footer {
     background: 0;
     height: 40px;

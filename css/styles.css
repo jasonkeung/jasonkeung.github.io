@@ -122,15 +122,6 @@ body {
     margin-bottom: 0;
 }
 
-#projects .card .card-action a {
-    color: #1976d2;
-    font-size: 18px;
-}
-
-#projects .card .card-action a:hover {
-    color: #64b5f6;
-}
-
 .footer {
     background: 0;
     height: 40px;

@@ -118,6 +118,10 @@ body {
     font-size: 40px;
 }
 
+.projects-description {
+    font-size: 17px;
+}
+
 .row {
     margin-bottom: 0;
 }

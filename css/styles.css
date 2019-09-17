@@ -122,6 +122,20 @@ body {
     font-size: 17px;
 }
 
+.academics {
+    width: 100%;
+    min-height: 100%;
+    margin-bottom: 0;
+    color: white;
+}
+
+.academics-title {
+    color: #EEE;
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+}
+
 .row {
     margin-bottom: 0;
 }

@@ -42,7 +42,9 @@ body {
 }
 
 .more {
+    transform: translateY(50%);
     align-self: flex-end;
+    cursor: pointer;
 }
 
 .portrait-circle {
@@ -51,6 +53,7 @@ body {
     width: 200px;
     height: 200px;
     margin-left: -100px;
+    margin-top: 2.8rem;
     border-radius: 50% 50% 50% 50%;
     border: 2px solid #333; 
 }
@@ -138,6 +141,10 @@ body {
 
 .row {
     margin-bottom: 0;
+}
+
+.card.small {
+    height: 333px
 }
 
 .footer {

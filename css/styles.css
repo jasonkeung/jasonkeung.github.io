@@ -48,11 +48,11 @@ body {
 .portrait-circle {
     position: relative;
     left: 50%;
-    width: 200px;
-    height: 200px;
-    margin-left: -100px;
+    width: 350px;
+    height: 350px;
+    margin-left: -175px;
     border-radius: 50% 50% 50% 50%;
-    border: 2px solid #333; 
+    border: 1px solid #111; 
 }
 
 .profile-image {

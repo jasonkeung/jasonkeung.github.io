@@ -104,15 +104,29 @@ body {
     background: 0 0;
 }
 
-.projects {
+.experience {
     width: 100%;
     min-height: 100%;
     background: #EEE;
     margin-bottom: 0;
 }
 
-.projects-title {
+.experience-title {
     color: #222;
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+}
+
+.projects {
+    width: 100%;
+    min-height: 100%;
+    margin-bottom: 0;
+    color: white;
+}
+
+.projects-title {
+    color: #EEE;
     text-align: center;
     padding: 30px;
     font-size: 40px;
@@ -125,12 +139,12 @@ body {
 .academics {
     width: 100%;
     min-height: 100%;
+    background: #EEE;
     margin-bottom: 0;
-    color: white;
 }
 
 .academics-title {
-    color: #EEE;
+    color: #222;
     text-align: center;
     padding: 30px;
     font-size: 40px;
